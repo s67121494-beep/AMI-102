@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "ami";
+    src: url(asset/fonts/Amiri/Amiri-Regular.ttf);
+}
+@font-face {
+    font-family: "pop";
+    src: url(asset/fonts/Poppins/Poppins-Regular.ttf);
+}
+:root{
+    --white:#fff;
+    --black:#000;
+    --mossy-green:#657b55;
+    --gray:#5E5E5E;
+    --mossy-light:#8c9585;
+    --fed:#00000000;
+    --light-gray:#F6F6F6;
+}
+body{
+    font-family: pop;
+    font-size: 16px;
+    color: var(--gray);
+}
+a{
+    text-decoration: none;
+}
+.hadding_list{
+    margin-left:auto ;
+    align-items: center;
+}
+.upper_hadding{
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--black);
+  text-transform: capitalize;
+}
+.hadding_list li {
+    padding: 0 18px;
+    text-transform: uppercase;
+    
+   
+}
+.hadding_list a{
+    color: var(--white);
+    transition: all 0.4s ease-in-out;
+}
+.hadding_list a:hover{
+     color: var(--mossy-green);
+}
+.brand_name{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.heder_itme{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.itme{
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.card_hero{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 70px;
+  border-radius: 30px;
+  background-color: var(--white);
+}
+.hero_sec{
+    background: url(asset/img/hero.png) no-repeat ;
+    object-fit: cover;
+   padding-bottom: 100px ;
+}
+.top{
+    padding-bottom: 224px;
+    background-color: var(--fed);
+}
+.navbar{
+    background-color: #00000000;
+}
+.card_row{
+    display: flex;
+     justify-content: center;
+
+}
+.hero_sec h1{
+  font-family: ami;
+  font-size: 68px;
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+.hero_sec p{
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--gray);
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+.btn_hero{
+    text-transform: uppercase;
+    padding: 29px 39px;
+    font-size: 18px;
+    color: var(--black);
+
+    
+}
+.piamry_btn{
+  background-color: var(--mossy-green);
+  border-radius: 50px;
+  color: var(--black);
+  border: 2px solid var(--mossy-green);
+    transition: all 0.4s ease-in-out;
+}
+.piamry_btn:hover{
+    background-color: var(--white);
+    color: var(--mossy-green);
+
+}
+h2{
+    font-size: 45px;
+    font-family: ami;
+    color: var(--black);
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.green{
+    color: var(--mossy-green);
+    text-transform: uppercase;
+   margin-bottom: 2px;
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+.image{
+    max-width: 400px;
+    padding: 10px ;
+}
+.group{
+    max-width: 250px;
+    padding-left: 10px;
+    padding-top: 70px;
+
+}
+.about_us{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+h3{
+    font-size: 24px;
+    color: var(--black);
+    font-family: ami;
+    padding-top: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.icon_w50{
+    align-items: center;
+    margin: 0 auto;
+    
+ 
+    
+}
+.imh_card{
+    padding: 30px;
+    display: flex;
+    border-radius: 30%;
+    background-color: var(--mossy-green);
+    justify-items: center;
+    justify-self: center;
+    box-shadow: 0px 0px 2px 10px var(--mossy-light);
+}
+.advantage{
+    padding-bottom: 110px;
+}
+.advantage_pad{
+    padding-top: 90px;
+}
+.our_mession_banne_img{
+    max-width: 641px;
+    position: relative;
+}
+.abslute{
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    border-left: 10px solid var(--white);
+    border-top: 10px solid var(--white);
+    border-top-left-radius: 12%;
+}
+.top_pad{
+ margin-top: 120px;
+}
+.our_messon{
+    background-color: var(--light-gray);
+    padding:  100px 0; 
+}
+.bootome h3{
+  text-align: start;
+  font-weight: bold;
+}
+.light_line{
+    width: 100px;
+    height: 1px;
+     background-color: var(--black);
+   margin-bottom: 21px;
+}
+.input{
+    padding: 15px;
+    border-radius: 30px;
+    border: 0.3px solid var(--gray);
+    margin-bottom: 30px;
+    max-width:100% ;
+}
+.bootme_btn{
+    padding: 10px 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: ami;
+    font-weight: bold;
+   
+}
+footer ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+   padding: 10px 0 ;
+}
+.footer_list_icon {
+    justify-content: space-between;
+   
+}
+.home,.copy9,.copy{
+    color: var(--black);
+    transition: all 0.4s ease-in-out;
+}
+.home:hover,.copy9:hover{
+    color: var(--mossy-green);
+}
+.bootome{
+    padding: 110px 0;
+}
+.copy{
+    text-align: center;
+    padding-top: 30px;
+    border-top: 0.2px solid var(--gray);
+
+}
+
+
+.banne_img_0{
+    max-width: 326px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1239px) {
+    .d_block{
+        display: none;
+    }
+    .hadding_list li{
+        padding: 0 5px;
+    }
+    .card_hero{
+        margin: 0 50px;
+        max-width: auto;
+    }
+    .top{
+            padding-bottom: 100px;
+    }
+    .hero_sec h1{
+        font-size: 60px;
+    }
+    .hero_sec p{
+        padding-top: 30px;
+    }
+    body{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 42px;
+    }
+}
+@media (max-width:999px) {
+    .hero_sec h1{
+        font-size: 55px;
+    }
+    .hero_sec p{
+      font-size: 13px;
+    }
+    .btn_hero{
+        padding: 20px 30px;
+        font-size: 14px;
+    }
+    h2{
+        text-align: center;
+    }
+    .green{
+        text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+    .bootome h3{
+        text-align: center;
+    }
+    .light_line{
+         
+           justify-self: center;
+           display: flex;
+    }
+    .image{
+        max-width: 100%;
+    }
+    .group{
+        max-width: 100%;
+        padding-top: 20px;
+    }
+}
+@media (max-width:750px) {
+    .hero_sec h1{
+        font-size: 40px;
+    }
+    .hero_sec p{
+      font-size: 13px;
+    }
+    .btn_hero{
+        padding: 15px 25px;
+        font-size: 13px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    body{
+        font-size: 13px;
+    }
+    .brand_name{
+        text-align: center;
+        font-size: 23px;
+    }
+    .card_hero{
+        padding: 40px;
+    }
+}
+@media (max-width:580px) {
+    .hero_sec h1{
+        font-size: 40px;
+    }
+    .hero_sec p{
+      font-size: 13px;
+    }
+
+    .card_hero{
+        padding: 30px;
+    }
+    .banne_img_0{
+           display: none;
+    }
+}
